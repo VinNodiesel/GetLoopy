@@ -3,7 +3,7 @@ public class Main {
         // Outer loop for the rows
         for (int i = 0; i < 5; i++) {
             // Inner loop for the columns (printing stars in each row)
-            for (int j = 0; j <= i; j++) {
+            for (int j = 4; j >= i; j--) {
                 System.out.print("* ");
             }
             // After printing all stars in a row, move to the next line
